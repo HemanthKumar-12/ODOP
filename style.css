@@ -1,0 +1,78 @@
+
+body, h1, h2, p {
+    background-color: rgb(78, 76, 73);
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('img3.png'); 
+     background-size: cover;  
+    background-repeat: no-repeat;
+    
+    color: #333;
+}
+.wel{
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #ff3300;
+}
+
+
+.about, .contact {
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.map{
+    padding: 10px;
+}
