@@ -12,7 +12,7 @@ firebase.initializeApp(firebaseConfig);
 
 const database = firebase.database();
 
-const messagesRef = database.ref('contact-messages');
+const messagesRef = database.ref('vendor-messages');
 
 document.getElementById('contactForm').addEventListener('submit', submitForm);
 
